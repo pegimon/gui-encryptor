@@ -217,7 +217,7 @@ public class CS402Lab1 extends javax.swing.JFrame {
         jLabel5.setFont(new java.awt.Font("Tahoma", 1, 14)); // NOI18N
         jLabel5.setForeground(new java.awt.Color(153, 0, 0));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ceaser", "mono" }));
+        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "ceaser", "mono", "hillCipher", "playfair", "railFence", "vigenere", "autokey" }));
         jComboBox1.addItemListener(new java.awt.event.ItemListener() {
             public void itemStateChanged(java.awt.event.ItemEvent evt) {
                 jComboBox1ItemStateChanged(evt);
